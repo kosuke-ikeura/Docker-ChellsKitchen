@@ -4,9 +4,8 @@ class CreateFlavors < ActiveRecord::Migration[5.2]
       t.string :name
       t.integer :summit_price
       t.integer :status
-      t.integer :purchase_price
-      t.integer :user_id
-	  t.text :image
+      t.integer :perchace_price
+      t.text :image
 
       t.timestamps
     end
